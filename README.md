@@ -1,5 +1,5 @@
 
-![imersaofsfc-challenge2](https://github.com/user-attachments/assets/19a2f921-afda-4af4-b193-79c551b312ea)
+![imersao-fsfc2_thumbnail_1920x1080](https://github.com/user-attachments/assets/37ac3209-db2b-4978-a597-2e595b876bdb)
 
 Neste desafio, você aprenderá a criar uma aplicação Next.js que lista posts de um endpoint. O processo é dividido em etapas simples para facilitar a implementação.
 
