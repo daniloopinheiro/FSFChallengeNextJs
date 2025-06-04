@@ -36,8 +36,8 @@ jobs:
       - name: 🧪 Audit dependencies (non-blocking)
         run: npm audit --audit-level=high || true
 
-      - name: 🧹 Lint code
-        run: npm install eslint-config-next --save-dev
+      #- name: 🧹 Lint code
+        #run: npm install eslint-config-next --save-dev
 
       - name: 🏗️ Build project
         run: npm run build
