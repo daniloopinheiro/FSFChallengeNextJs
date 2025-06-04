@@ -30,7 +30,10 @@ jobs:
       - name: 📥 Install dependencies (with legacy peer deps)
         run: npm install --legacy-peer-deps
 
-      - name: 🧪 Audit dependencies
+      - name: 🛠️ Auto-fix vulnerabilities
+        run: npm audit fix
+
+      - name: 🧪 Audit dependencies (break on high severity)
         run: npm audit --audit-level=high
 
       - name: 🧹 Lint code
@@ -41,3 +44,4 @@ jobs:
 
       - name: ✅ Run tests (placeholder)
         run: echo "No tests configured"
+
