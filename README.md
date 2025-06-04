@@ -1,5 +1,6 @@
-
 ![imersao-fsfc2_thumbnail_1920x1080](https://github.com/user-attachments/assets/37ac3209-db2b-4978-a597-2e595b876bdb)
+
+[![Node.js CI](https://github.com/daniloopinheiro/FSFChallengeNextJs/actions/workflows/node.js.yml/badge.svg)](https://github.com/daniloopinheiro/FSFChallengeNextJs/actions/workflows/node.js.yml)
 
 Neste desafio, você aprenderá a criar uma aplicação Next.js que lista posts de um endpoint. O processo é dividido em etapas simples para facilitar a implementação.
 
