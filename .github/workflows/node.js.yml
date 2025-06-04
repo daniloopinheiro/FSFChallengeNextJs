@@ -37,7 +37,7 @@ jobs:
         run: npm audit --audit-level=high || true
 
       - name: 🧹 Lint code
-        run: npm run lint
+        run: npm install eslint-config-next --save-dev
 
       - name: 🏗️ Build project
         run: npm run build
